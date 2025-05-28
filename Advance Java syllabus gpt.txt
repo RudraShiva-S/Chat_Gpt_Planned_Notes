@@ -1,157 +1,159 @@
 Advanced Java Syllabus: Step-by-Step Guide by Rudra
+------------------------------------------------------
 Module 1: JDBC (Java Database Connectivity)
-What is JDBC and Why?
+-----------------------------------------------
 
-JDBC Architecture
+=> What is JDBC and Why?
 
-Steps to connect Java with MySQL
+=> JDBC Architecture
 
-Statement vs PreparedStatement
+=> Steps to connect Java with MySQL
 
-ResultSet and Metadata
+=> Statement vs PreparedStatement
 
-Exception Handling in JDBC
+=> ResultSet and Metadata
 
-Connection Pooling
+=> Exception Handling in JDBC
 
-Practicals:
+=> Connection Pooling
 
-Create a "User Manager" CRUD app (console-based)
+=> Practicals:(a) Create a "User Manager" CRUD app (console-based).
+               (b) Use PreparedStatement for safe DB operations.
 
-Use PreparedStatement for safe DB operations
-
+=============================================
 Module 2: Servlet Technology
-What is a Servlet?
+=============================================
 
-Servlet Lifecycle (init, service, destroy)
+=> What is a Servlet?
 
-doGet() vs doPost()
+=> Servlet Lifecycle (init, service, destroy)
 
-Deployment using Apache Tomcat
+=> doGet() vs doPost()
 
-ServletConfig and ServletContext
+=> Deployment using Apache Tomcat
 
-Request and Response handling
+=> ServletConfig and ServletContext
 
-Redirect vs Forward
+=> Request and Response handling
 
-Practicals:
+=> Redirect vs Forward
 
-HTML form + Servlet to display user input
+=> Practicals:(a) HTML form + Servlet to display user input.
+              (b) Build a feedback form using POST method.
 
-Build a feedback form using POST method
-
+========================================
 Module 3: JSP (JavaServer Pages)
-JSP Syntax: Scriptlets, Directives, Declarations
+========================================
 
-JSP Lifecycle
+=> JSP Syntax: Scriptlets, Directives, Declarations
 
-JSP with JDBC
+=> JSP Lifecycle
 
-JSP Expression Language (EL)
+=> JSP with JDBC
 
-JSP Implicit Objects
+=> JSP Expression Language (EL)
 
-JSTL (JSP Standard Tag Library)
+=> JSP Implicit Objects
 
-Practicals:
+=> JSTL (JSP Standard Tag Library)
 
-Login system using JSP + Servlet + JDBC
+=> Practicals:(a) Login system using JSP + Servlet + JDBC.
+              (b) Display data from DB in a table using JSTL.
 
-Display data from DB in a table using JSTL
-
+=================================
 Module 4: MVC Architecture
-What is MVC? Why use it?
+=================================
 
-Implementing MVC with Servlet and JSP
+=> What is MVC? Why use it?
 
-Reusability and Maintainability
+=> Implementing MVC with Servlet and JSP
 
-DAO (Data Access Object) Layer
+=> Reusability and Maintainability
 
-Practicals:
+=> DAO (Data Access Object) Layer
 
-Convert login project to MVC structure
+=> Practicals:(a) Convert login project to MVC structure .
+              (b) Build a "Student Management System" using MVC.
 
-Build a "Student Management System" using MVC
-
+================================
 Module 5: Session Management
-HTTP Stateless Nature
+================================
 
-Cookies in Java
+=> HTTP Stateless Nature
 
-HttpSession
+=> Cookies in Java
 
-URL Rewriting
+=> HttpSession
 
-Hidden Form Fields
+=> URL Rewriting
 
-Practicals:
+=> Hidden Form Fields
 
-Add login session to your web app
+=> Practicals:(a) Add login session to your web app
+              (b) Implement “Remember Me” using cookies
 
-Implement “Remember Me” using cookies
-
+===========================================
 Module 6: Servlet Filters and Listeners
-Servlet Filters (Authentication, Logging, etc.)
+===========================================
 
-Writing Custom Filters
+=> Servlet Filters (Authentication, Logging, etc.)
 
-Servlet Listeners
+=> Writing Custom Filters
 
-Real-time event tracking
+=> Servlet Listeners
 
-Practicals:
+=> Real-time event tracking
 
-Block direct access to internal pages without login
+=> Practicals:(a) Block direct access to internal pages without login.
+              (b)Track user sessions using Listeners.
 
-Track user sessions using Listeners
-
+=============================================
 Module 7: Exception Handling and Logging
-Error handling in web apps
+=============================================
 
-Custom Exception Classes
+=> Error handling in web apps
 
-Logging using java.util.logging or Log4j
+=> Custom Exception Classes
 
-Practicals:
+=> Logging using java.util.logging or Log4j
 
-Centralized error page
+=> Practicals:(a) Centralized error page. 
+              (b)Logging login attempts.
 
-Logging login attempts
-
+=============================================
 Module 8: Multi-threading Basics in Web Apps
-Why threading matters
+=============================================
 
-Thread-safe operations in servlets
+=> Why threading matters
 
-Synchronization
+=> Thread-safe operations in servlets
 
-Practicals:
+=> Synchronization
 
-Simulate multi-user access to shared resource
+=> Practicals: Simulate multi-user access to shared resource.
 
+
+=============================================
 Module 9: Mini Projects
-Choose from:
+============================================= 
 
-Task Manager App
+=> Choose from:
 
-Online Quiz App
+=> Task Manager App
 
-Job Portal
+=> Online Quiz App
 
-E-Commerce Cart (basic version)
+=> Job Portal
 
-Each project will use:
+=> E-Commerce Cart (basic version)
 
-JSP + Servlet + JDBC + Session + MVC
+=> Each project will use: JSP + Servlet + JDBC + Session + MVC + MySQL database.
 
-MySQL database
+===========================================================
+Optional Module: Connecting Advanced Java to Spring Boot  (When you're ready).
+===========================================================
 
-Optional Module: Connecting Advanced Java to Spring Boot
-(When you're ready)
+=> Differences between Servlet-based & Spring Boot apps
 
-Differences between Servlet-based & Spring Boot apps
-
-Migrating a JSP app to Spring Boot (Thymeleaf)
-
+=> Migrating a JSP app to Spring Boot (Thymeleaf)
+       
