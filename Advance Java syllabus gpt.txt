@@ -1,0 +1,157 @@
+Advanced Java Syllabus: Step-by-Step Guide by Rudra
+Module 1: JDBC (Java Database Connectivity)
+What is JDBC and Why?
+
+JDBC Architecture
+
+Steps to connect Java with MySQL
+
+Statement vs PreparedStatement
+
+ResultSet and Metadata
+
+Exception Handling in JDBC
+
+Connection Pooling
+
+Practicals:
+
+Create a "User Manager" CRUD app (console-based)
+
+Use PreparedStatement for safe DB operations
+
+Module 2: Servlet Technology
+What is a Servlet?
+
+Servlet Lifecycle (init, service, destroy)
+
+doGet() vs doPost()
+
+Deployment using Apache Tomcat
+
+ServletConfig and ServletContext
+
+Request and Response handling
+
+Redirect vs Forward
+
+Practicals:
+
+HTML form + Servlet to display user input
+
+Build a feedback form using POST method
+
+Module 3: JSP (JavaServer Pages)
+JSP Syntax: Scriptlets, Directives, Declarations
+
+JSP Lifecycle
+
+JSP with JDBC
+
+JSP Expression Language (EL)
+
+JSP Implicit Objects
+
+JSTL (JSP Standard Tag Library)
+
+Practicals:
+
+Login system using JSP + Servlet + JDBC
+
+Display data from DB in a table using JSTL
+
+Module 4: MVC Architecture
+What is MVC? Why use it?
+
+Implementing MVC with Servlet and JSP
+
+Reusability and Maintainability
+
+DAO (Data Access Object) Layer
+
+Practicals:
+
+Convert login project to MVC structure
+
+Build a "Student Management System" using MVC
+
+Module 5: Session Management
+HTTP Stateless Nature
+
+Cookies in Java
+
+HttpSession
+
+URL Rewriting
+
+Hidden Form Fields
+
+Practicals:
+
+Add login session to your web app
+
+Implement “Remember Me” using cookies
+
+Module 6: Servlet Filters and Listeners
+Servlet Filters (Authentication, Logging, etc.)
+
+Writing Custom Filters
+
+Servlet Listeners
+
+Real-time event tracking
+
+Practicals:
+
+Block direct access to internal pages without login
+
+Track user sessions using Listeners
+
+Module 7: Exception Handling and Logging
+Error handling in web apps
+
+Custom Exception Classes
+
+Logging using java.util.logging or Log4j
+
+Practicals:
+
+Centralized error page
+
+Logging login attempts
+
+Module 8: Multi-threading Basics in Web Apps
+Why threading matters
+
+Thread-safe operations in servlets
+
+Synchronization
+
+Practicals:
+
+Simulate multi-user access to shared resource
+
+Module 9: Mini Projects
+Choose from:
+
+Task Manager App
+
+Online Quiz App
+
+Job Portal
+
+E-Commerce Cart (basic version)
+
+Each project will use:
+
+JSP + Servlet + JDBC + Session + MVC
+
+MySQL database
+
+Optional Module: Connecting Advanced Java to Spring Boot
+(When you're ready)
+
+Differences between Servlet-based & Spring Boot apps
+
+Migrating a JSP app to Spring Boot (Thymeleaf)
+
